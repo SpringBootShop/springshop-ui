@@ -27,7 +27,7 @@ const FilterPage = ({sm,sidebarView,closeSidebar}) => {
                     <Price />
                 </div>
                 {/* <!-- silde-bar colleps block end here -->*/}
-                <NewProduct />
+                {/* <NewProduct /> */}
                 {/* <!-- side-bar banner start here -->  */}
                 <div className="collection-sidebar-banner">
                     <a href={null}><Media src={sideBanner.src} className="img-fluid blur-up lazyload" alt="" /></a>

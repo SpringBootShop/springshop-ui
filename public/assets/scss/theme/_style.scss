@@ -241,7 +241,7 @@ section,
   padding-top: 70px;
 }
 .section-b-space {
-  padding-bottom: 70px;
+  // padding-bottom: 70px;
 }
 .p-t-0 {
   padding-top: 0;
@@ -1452,15 +1452,10 @@ header {
   .menu-right {
     display: flex;
     float: right;
-    .flex-center {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
     .icon-nav {
       display: inline-block;
       li {
-        padding: 0;
+        padding-left: 20px;
       }
       .onhover-div {
         .show-div {

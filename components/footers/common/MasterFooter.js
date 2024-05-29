@@ -45,45 +45,6 @@ const MasterFooter = ({
   return (
     <div>
       <footer className={footerClass}>
-        {newLatter ? (
-          <div className={footerLayOut}>
-            <Container fluid={containerFluid ? containerFluid : ""}>
-              <section className={footerSection}>
-                <Row>
-                  <Col lg="6">
-                    <div className="subscribe">
-                      <div>
-                        <h4>KNOW IT ALL FIRST!</h4>
-                        <p>
-                          Never Miss Anything From Multikart By Signing Up To
-                          Our Newsletter.
-                        </p>
-                      </div>
-                    </div>
-                  </Col>
-                  <Col lg="6">
-                    <Form className="form-inline subscribe-form">
-                      <div className="mx-sm-3">
-                        <Input
-                          type="text"
-                          className="form-control"
-                          id="exampleFormControlInput1"
-                          placeholder="Enter your email"
-                        />
-                      </div>
-                      <Button type="submit" className="btn btn-solid">
-                        subscribe
-                      </Button>
-                    </Form>
-                  </Col>
-                </Row>
-              </section>
-            </Container>
-          </div>
-        ) : (
-          ""
-        )}
-
         <section className={belowSection}>
           <Container fluid={belowContainerFluid ? belowContainerFluid : ""}>
             <Row className="footer-theme partition-f">
@@ -289,10 +250,12 @@ const MasterFooter = ({
           </Container>
         </section>
 
-        <CopyRight
+             
+
+        {/* <CopyRight
           layout={layoutClass}
           fluid={CopyRightFluid ? CopyRightFluid : ""}
-        />
+        /> */}
       </footer>
     </div>
   );

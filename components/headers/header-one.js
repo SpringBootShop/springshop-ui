@@ -83,7 +83,7 @@ const HeaderOne = ({
             <Col>
               <div className="main-menu">
                 <div className="menu-left">
-                  <div className="navbar">
+                  {/* <div className="navbar">
                     <a href={null} onClick={openNav}>
                       <div className="bar-style">
                         <i
@@ -91,10 +91,10 @@ const HeaderOne = ({
                           aria-hidden="true"
                         ></i>
                       </div>
-                    </a>
+                    </a> */}
                     {/*SideBar Navigation Component*/}
-                    <SideBar />
-                  </div>
+                    {/* <SideBar />
+                  </div> */}
                   <div className="brand-logo">
                     <LogoImage logo={logoName} />
                   </div>
@@ -103,7 +103,7 @@ const HeaderOne = ({
                   {/*Top Navigation Bar Component*/}
                    <NavBar />
 
-                  <div className="flex-center">
+                  <div>
                     <div className="icon-nav">
                       <ul>
                         <li className="onhover-div mobile-search">

@@ -37,7 +37,7 @@ const GET_SINGLE_PRODUCTS = gql`
   }
 `;
 
-const LeftImagePage = () => {
+const LeftImagePage = ({ pathId }) => {
   const context = useContext(CartContext);
   const addToCart = context.addToCart;
   const curContext = useContext(CurrencyContext);
@@ -47,7 +47,7 @@ const LeftImagePage = () => {
   const slider2 = useRef();
   var { loading, data } = useQuery(GET_SINGLE_PRODUCTS, {
     variables: {
-      id: 1,
+      id: parseInt(pathId),
     },
   });
   var products = {
