@@ -15,7 +15,6 @@ const MasterBanner = ({ img, title, desc, link, classes, btn, btnClass }) => {
                   <Link
                     href={link}
                     className={`btn ${btnClass ? btnClass : "btn-solid"}`}>
-                    {/* <a > */}
                     {btn ? btn : "Shop Now"} {/* </a> */}
                   </Link>
                 </div>
